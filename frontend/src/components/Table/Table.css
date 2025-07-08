@@ -1,0 +1,43 @@
+.report-table-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.report-table th,
+.report-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.report-table th {
+  background-color: #f4f4f4;
+}
+
+.view-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.view-btn:hover,
+.delete-btn:hover {
+  opacity: 0.9;
+}
